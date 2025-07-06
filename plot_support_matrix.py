@@ -71,11 +71,11 @@ timestamp = datetime.datetime.now().strftime("Generated on %Y-%m-%d at %H:%M:%S"
 fig.text(0.99, 0.01, timestamp, ha='right', va='bottom', fontsize=8, color='gray')
 
 # Save with current day as filename
-if len(sys.argv) >= 2:
+if len(sys.argv) >= 3:
     timestamp_filename = sys.argv[2]
 else:
-    timestamp_filename = datetime.datetime.now().strftime("mods_support_mat_%Y-%m-%d%H:%M:%S")
+    timestamp_filename = datetime.datetime.now().strftime("mods_support_mat_%Y-%m-%d%H:%M:%S.png")
 
 plt.tight_layout(pad=2.5)
-plt.savefig(f"{timestamp_filename}.png", dpi=300)
+plt.savefig(f"{timestamp_filename}", dpi=300)
 #plt.show()
