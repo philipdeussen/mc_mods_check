@@ -1,0 +1,16 @@
+mod_name, server_client_use
+syncmatica,sc
+carpet-extra,sc
+fabric-api,sc
+carpet,sc
+lithium,s
+servux,s
+stackable-shulkers-fix,s
+iris,c
+item-scroller,c
+litematica,c
+malilib,c
+minihud,c
+sodium,c
+tweakeroo,c
+worldedit,c
